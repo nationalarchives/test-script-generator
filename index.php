@@ -29,12 +29,5 @@ require_once('logic.php');
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script>
-		// $('h3 + .list-group').hide(); 
-
-		// $('h3').on('click', function() {
-		// 	$(this).next().fadeToggle();
-		// })
-	</script>
 </body>
 </html>
