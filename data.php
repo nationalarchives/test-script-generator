@@ -4,9 +4,9 @@
 $testers = array(
 	'Alexa' => 'IE8', 
 	'Andy' => 'IE9', 
-	'Angela' => 'IE10', 
+	'Angela' => 'Android device (Default browser)', 
 	'Gwyn' => 'Safari Mac', 
-	'Helen' => 'Android device (Default browser)', 
+	'Helen' => 'IE10', 
 	'Maria' => 'Chrome', 
 	'Marion' => 'FireFox',
 	'Matt' => 'IE11', 
