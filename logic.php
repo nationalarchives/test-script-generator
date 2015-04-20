@@ -46,7 +46,7 @@ function printPagesToTest($numberOfPagesPerTester, &$pages, &$pagesAlwaysTested)
 
             $liFormat = "<li class='list-group-item'><span class='label label-warning'>Page always tested</span> %s <div class='btn-group'><a href='%s' class='btn btn-default' target='_blank'>Test</a> <a href='%s' class='btn btn-default' target='_blank'>Live</a></div></li>";
 
-            $items[] = sprintf($liFormat, str_replace('http://testlb.nationalarchives.gov.uk', '', $pageAlwaysTested), $pageAlwaysTested, str_replace('testlb', 'livelb', $pageAlwaysTested));
+            $items[] = sprintf($liFormat, str_replace('http://testlb.nationalarchives.gov.uk', '', $pageAlwaysTested), $pageAlwaysTested, str_replace('testlb', 'www', $pageAlwaysTested));
 
         }
     }
